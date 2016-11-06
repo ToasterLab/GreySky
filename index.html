@@ -5,15 +5,21 @@
     <title>Hello World!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Grey Sky</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
-
-  <script>
+    
+    <script>
     // You can also require other files to run in this process
     require('./renderer.js')
+
+	// GreySky
+	// http://api.nea.gov.sg/api/WebAPI/?dataset=pm2.5_update&keyref=781CF461BB6606AD28A78E343E0E41768209B2EF144E6564
+	// http://api.nea.gov.sg/api/WebAPI/?dataset=psi_update&keyref=781CF461BB6606AD28A78E343E0E41768209B2EF144E6564
+  	
+	require('./greysky.js')
   </script>
+  </body>
 </html>
