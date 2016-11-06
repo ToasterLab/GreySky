@@ -1,0 +1,31 @@
+body{
+	$clear: #46CCDA;
+	$mild: #F7F4EB;
+	$getting-serious: #DAD3CD;
+	$hohoho: #C6C6C6;
+	$gg: #949DA4;
+	
+	background-color: $clear;
+}
+
+h1,h2,h3{
+	margin:0;
+}
+
+div{
+	text-align:center;
+	color:white;
+	.box{
+		height:30vh;
+	}
+	.box.empty{
+		opacity:0;
+	}
+}
+
+.big-number{
+	font-size:5em;
+}
+.label{
+	font-family: "Roboto Condensed";
+}

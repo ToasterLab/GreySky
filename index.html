@@ -2,14 +2,86 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Grey Skies</title>
+    <link rel="stylesheet" type="text/css" href="./css/pure.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/roboto.css">
+    <link rel="stylesheet" type="text/css" href="./css/greysky.css">
+    <style>
+    	html,*{font-family: "Roboto"; font-weight: 300;}
+    </style>
   </head>
   <body>
-    <h1>Grey Sky</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+  	<div class="pure-g" id="overall">
+  		<div class="pure-u-sm-1-1">
+  			<h2>SINGAPORE - 14/10/16 3PM</h2>
+  		</div>
+  		<div class="pure-u-sm-1-2">
+  			<h1 class="big-number">25</h1>
+  			<h2 class="label">PSI</h2>
+  		</div>
+  		<div class="pure-u-sm-1-2">
+  			<h1 class="big-number">35</h1>
+  			<h2 class="label">PM 2.5</h2>
+  		</div>
+  	</div>
+    <div class="pure-g">
+	    <div class="pure-u-sm-1-3 empty box"></div>
+	    <div class="pure-u-sm-1-3 box">
+	    	<div class="pure-u-sm-1-1">
+	  			<h2>NORTH</h2>
+	  		</div>
+	  		<div class="pure-u-sm-1-1">
+	  			<h1 class="big-number">99</h1>
+	  			<h2 class="label">PSI</h2>
+	  			<h3 class="label">14/10/16 3PM</h3>
+	  		</div>
+	    </div>
+	    <div class="pure-u-sm-1-3 empty box"></div>
+	    
+	    <div class="pure-u-sm-1-3 box">
+	    	<div class="pure-u-sm-1-1">
+	  			<h2>WEST</h2>
+	  		</div>
+	  		<div class="pure-u-sm-1-1">
+	  			<h1 class="big-number">99</h1>
+	  			<h2 class="label">PSI</h2>
+	  			<h3 class="label">14/10/16 3PM</h3>
+	  		</div>
+	    </div>
+	    <div class="pure-u-sm-1-3 box">
+	    	<div class="pure-u-sm-1-1">
+	  			<h2>CENTRAL</h2>
+	  		</div>
+	  		<div class="pure-u-sm-1-1">
+	  			<h1 class="big-number">99</h1>
+	  			<h2 class="label">PSI</h2>
+	  			<h3 class="label">14/10/16 3PM</h3>
+	  		</div>
+	    </div>
+	    <div class="pure-u-sm-1-3 box">
+	    	<div class="pure-u-sm-1-1">
+	  			<h2>EAST</h2>
+	  		</div>
+	  		<div class="pure-u-sm-1-1">
+	  			<h1 class="big-number">99</h1>
+	  			<h2 class="label">PSI</h2>
+	  			<h3 class="label">14/10/16 3PM</h3>
+	  		</div>
+	    </div>
+	    
+	    <div class="pure-u-sm-1-3 empty box"></div>
+	    <div class="pure-u-sm-1-3 box">
+	    	<div class="pure-u-sm-1-1">
+	  			<h2>SOUTH</h2>
+	  		</div>
+	  		<div class="pure-u-sm-1-1">
+	  			<h1 class="big-number">99</h1>
+	  			<h2 class="label">PSI</h2>
+	  			<h3 class="label">14/10/16 3PM</h3>
+	  		</div>
+	    </div>
+	    <div class="pure-u-sm-1-3 empty box"></div>
+	</div>
     
     <script>
     // You can also require other files to run in this process
@@ -19,7 +91,7 @@
 	// http://api.nea.gov.sg/api/WebAPI/?dataset=pm2.5_update&keyref=781CF461BB6606AD28A78E343E0E41768209B2EF144E6564
 	// http://api.nea.gov.sg/api/WebAPI/?dataset=psi_update&keyref=781CF461BB6606AD28A78E343E0E41768209B2EF144E6564
   	
-	require('./greysky.js')
+	require('./app/greysky.js')
   </script>
   </body>
 </html>

@@ -1,0 +1,21 @@
+body {
+  background-color: #46CCDA; }
+
+h1, h2, h3 {
+  margin: 0; }
+
+div {
+  text-align: center;
+  color: white; }
+  div .box {
+    height: 30vh; }
+  div .box.empty {
+    opacity: 0; }
+
+.big-number {
+  font-size: 5em; }
+
+.label {
+  font-family: "Roboto Condensed"; }
+
+/*# sourceMappingURL=greysky.css.map */
